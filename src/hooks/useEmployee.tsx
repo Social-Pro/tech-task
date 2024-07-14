@@ -35,7 +35,7 @@ export const useEmployee = () => {
     try {
       setIsLoading(true);
       await sleep(2000);
-      setEmployees([...employees]);
+      setEmployees((currentE) => currentE.map((updateE) => updateE.id === employee.id ? employee : updateE));//
     } catch (e: any) {
       setError("Could not update employee");
     } finally {
