@@ -20,3 +20,17 @@ Add inline comments of any further changes that would be made if given more time
 - Ensure the application works as expected.
 - Styling the application, please use Material UI components (https://mui.com/material-ui/getting-started/).
 - Make the code maintainable.
+
+# Setup
+
+Install node modules
+
+```
+npm install
+```
+
+Run app
+
+```
+npm run start
+```
